@@ -24,5 +24,5 @@ curl -X POST \
 
 # Technologies & References
 
-[Express](https://expressjs.com/)
-[Enable Less Secure Apps Gmail](https://hotter.io/docs/email-accounts/secure-app-gmail/)
+- [Express](https://expressjs.com/)
+- [Enable Less Secure Apps Gmail](https://hotter.io/docs/email-accounts/secure-app-gmail/)
