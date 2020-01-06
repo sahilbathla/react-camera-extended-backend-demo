@@ -9,7 +9,7 @@ class ImagesController {
     }
     await sendMail({
       subject: 'Your Uploaded Photo is Here!',
-      to: 'sahilbathla1@gmail.com',
+      to: (body.to || 'sahilbathla1@gmail.com'),
       html: `There, you go enjoy your photo!<br><img src="${body.image}" />`,
     });
     res.json({message: CONSTANT.MESSAGES.IMAGES.SUCCESSFULLY_EMAILED });
